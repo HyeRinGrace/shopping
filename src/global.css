@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+	list-style-type: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+input {
+	font-family: inherit;
+	outline: none;
+}
+
+button {
+	font-family: inherit;
+	border: none;
+	background-color: inherit;
+	cursor: pointer;
+}
+
+body {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+main {
+	min-height: 1050px;
+}
+
+.sr_only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	font-size: 1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+}

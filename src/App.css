@@ -1,0 +1,150 @@
+#root {
+	margin: 0 auto;
+	text-align: center;
+	--ruler-scale-color-gray-00: #fff;
+	--ruler-scale-color-gray-100: #f4f4f4;
+	--ruler-scale-color-gray-200: #e4e4e4;
+	--ruler-scale-color-gray-300: #c4c4c4;
+	--ruler-scale-color-gray-400: #a0a0a0;
+	--ruler-scale-color-gray-500: #5d5d5d;
+	--ruler-scale-color-gray-600: #474747;
+	--ruler-scale-color-gray-700: #303030;
+	--ruler-scale-color-gray-800: #27272a;
+	--ruler-scale-color-gray-900: #19191a;
+	--ruler-scale-color-gray-950: #000;
+	--ruler-scale-color-red-100: #ffefeb;
+	--ruler-scale-color-red-200: #ffbfaa;
+	--ruler-scale-color-red-300: #ff916c;
+	--ruler-scale-color-red-400: #ff6933;
+	--ruler-scale-color-red-500: #ff4800;
+	--ruler-scale-color-red-600: #d53f00;
+	--ruler-scale-color-red-700: #ab3803;
+	--ruler-scale-color-red-800: #823107;
+	--ruler-scale-color-red-900: #582609;
+	--ruler-scale-color-red-950: #2e1608;
+	--ruler-scale-color-blue-100: #ebf1ff;
+	--ruler-scale-color-blue-200: #b8cdff;
+	--ruler-scale-color-blue-300: #86a5ff;
+	--ruler-scale-color-blue-400: #5b7fff;
+	--ruler-scale-color-blue-500: #375fff;
+	--ruler-scale-color-blue-600: #203ff6;
+	--ruler-scale-color-blue-700: #1025e5;
+	--ruler-scale-color-blue-800: #0611bd;
+	--ruler-scale-color-blue-900: #010474;
+	--ruler-scale-color-blue-950: #003;
+	--ruler-scale-color-yellow-100: #fff7f0;
+	--ruler-scale-color-yellow-200: #ffdfb9;
+	--ruler-scale-color-yellow-300: #ffc97f;
+	--ruler-scale-color-yellow-400: #ffb741;
+	--ruler-scale-color-yellow-500: #ffa800;
+	--ruler-scale-color-yellow-600: #d18d16;
+	--ruler-scale-color-yellow-700: #a37021;
+	--ruler-scale-color-yellow-800: #755322;
+	--ruler-scale-color-yellow-900: #47341b;
+	--ruler-scale-color-yellow-950: #19130c;
+	--ruler-scale-color-green-100: #eefee6;
+	--ruler-scale-color-green-200: #c2eeb2;
+	--ruler-scale-color-green-300: #81dc71;
+	--ruler-scale-color-green-400: #3fcb3c;
+	--ruler-scale-color-green-500: #12ba23;
+	--ruler-scale-color-green-600: #139e14;
+	--ruler-scale-color-green-700: #1e8215;
+	--ruler-scale-color-green-800: #246616;
+	--ruler-scale-color-green-900: #234a15;
+	--ruler-scale-color-green-950: #1b2e11;
+	--ruler-scale-dimension-font-size-25: 10px;
+	--ruler-scale-dimension-font-size-50: 11px;
+	--ruler-scale-dimension-font-size-75: 12px;
+	--ruler-scale-dimension-font-size-100: 13px;
+	--ruler-scale-dimension-font-size-125: 14px;
+	--ruler-scale-dimension-font-size-150: 15px;
+	--ruler-scale-dimension-font-size-200: 16px;
+	--ruler-scale-dimension-font-size-250: 18px;
+	--ruler-scale-dimension-font-size-300: 20px;
+	--ruler-scale-dimension-font-size-350: 22px;
+	--ruler-scale-dimension-font-size-400: 24px;
+	--ruler-scale-dimension-font-size-500: 28px;
+	--ruler-scale-dimension-font-size-550: 30px;
+	--ruler-scale-dimension-font-size-600: 32px;
+	--ruler-scale-dimension-font-size-1000: 48px;
+	--ruler-scale-dimension-25: 2px;
+	--ruler-scale-dimension-50: 4px;
+	--ruler-scale-dimension-100: 8px;
+	--ruler-scale-dimension-125: 10px;
+	--ruler-scale-dimension-150: 12px;
+	--ruler-scale-dimension-200: 16px;
+	--ruler-scale-dimension-225: 18px;
+	--ruler-scale-dimension-250: 20px;
+	--ruler-scale-dimension-300: 24px;
+	--ruler-scale-dimension-350: 28px;
+	--ruler-scale-dimension-375: 30px;
+	--ruler-scale-dimension-400: 32px;
+	--ruler-scale-dimension-500: 40px;
+	--ruler-scale-dimension-600: 48px;
+	--ruler-scale-dimension-700: 56px;
+	--ruler-scale-dimension-750: 60px;
+	--ruler-scale-font-weight-thin: 100;
+	--ruler-scale-font-weight-extraLight: 200;
+	--ruler-scale-font-weight-light: 300;
+	--ruler-scale-font-weight-regular: 400;
+	--ruler-scale-font-weight-medium: 500;
+	--ruler-scale-font-weight-semibold: 600;
+	--ruler-scale-font-weight-bold: 700;
+	--ruler-scale-font-weight-extraBold: 800;
+	--ruler-scale-letter-spacing: 0;
+	--ruler-scale-line-height-1: 100%;
+	--ruler-scale-line-height-2: 120%;
+	--ruler-scale-line-height-3: 136%;
+	--ruler-scale-line-height-4: 140%;
+	--ruler-scale-line-height-5: 150%;
+	--ruler-scale-line-height-6: 160%;
+	--ruler-scale-corner-radius-25: 2px;
+	--ruler-scale-corner-radius-50: 4px;
+	--ruler-scale-corner-radius-100: 8px;
+	--ruler-scale-corner-radius-full: 9999px;
+	--ruler-static-scale-color-black: #000;
+	--ruler-static-scale-color-white: #fff;
+	--ruler-static-scale-color-black-alpha-200: #00000020;
+	--ruler-static-scale-color-black-alpha-500: #00000080;
+	--ruler-static-scale-color-black-alpha-900: #000000e6;
+	--ruler-static-scale-font-family-pretendard: 'Pretendard Variable', Pretendard, -apple-system,
+		BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo',
+		'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+		sans-serif;
+}
+
+.logo {
+	height: 6em;
+	padding: 1.5em;
+	will-change: filter;
+	transition: filter 300ms;
+}
+.logo:hover {
+	filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+	filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	a:nth-of-type(2) .logo {
+		animation: logo-spin infinite 20s linear;
+	}
+}
+
+.card {
+	padding: 2em;
+}
+
+.read-the-docs {
+	color: #888;
+}

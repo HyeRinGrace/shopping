@@ -1,0 +1,227 @@
+.product-detail {
+	margin-top: 70px;
+}
+
+.product-brand {
+	display: flex;
+	margin-bottom: 16px;
+}
+
+.brand_infoCon {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-left: 14px;
+}
+.product-detail_infoCon {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	margin-bottom: 20px;
+}
+.detail_infoCon_img {
+	width: 300px;
+	height: 300px;
+}
+.detail_infoCon {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	margin-left: 45px;
+}
+.infoCon_textBox {
+	width: 100%;
+}
+.textBox_text {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-bottom: 16px;
+	border-top: 2px solid #000000;
+	border-bottom: 1px solid #f4f4f4;
+}
+
+.infoTextBox {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.infoTextBox_title {
+	font-size: 18px;
+	width: 80%;
+	font-weight: 600;
+	margin-top: 10px;
+	text-align: left;
+}
+
+.infoTextBox_heart {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 10%;
+	height: 100%;
+	/* border-left: 1px solid #e4e4e4; */
+}
+.infoText_reviewCon {
+	display: flex;
+	align-items: center;
+}
+.reviewCon_stars {
+	margin-right: 12px;
+}
+.reviewCon_text {
+	color: #5d5d5d;
+	font-size: 11px;
+	font-weight: 500;
+	border-bottom: 0.5px solid #5d5d5d;
+}
+
+.infoText_priceCon {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.prevPrice {
+	font-size: 16px;
+	font-weight: 500;
+	color: #c4c4c4;
+}
+.priceCon_currentPrice {
+	display: flex;
+}
+.currentPrice_Con {
+	display: flex;
+	align-items: center;
+	justify-self: flex-start;
+}
+.discountPer {
+	font-size: 22px;
+	color: #ff4800;
+	font-weight: 600;
+	margin-right: 6px;
+}
+
+.currentPrice {
+	font-weight: 600;
+	font-size: 22px;
+}
+.priceCon_point {
+	margin-top: 4px;
+	font-size: 13px;
+	line-height: 18px;
+	color: #5d5d5d;
+}
+
+.member-price {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.member-price_text {
+	font-size: 13px;
+	color: rgb(93, 93, 93);
+}
+
+.member-discount {
+	display: flex;
+	align-items: center;
+}
+
+.discount-per {
+	color: rgb(160, 160, 160);
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 22px;
+}
+
+.discount-price {
+	margin-left: 4px;
+	color: rgb(0, 0, 0);
+	font-size: 16px;
+	font-weight: 600;
+}
+.textBox_shipping {
+	width: 100%;
+	height: 50%;
+	font-size: 13px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 16px 0;
+	border-bottom: 1px solid #f4f4f4;
+}
+.shipping-title {
+	font-weight: 700;
+}
+.shipping-info {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.detail_buttonCon {
+	display: flex;
+	width: 100%;
+	margin-top: 20px;
+}
+.detail_buttonCon button {
+	width: 100%;
+	font-size: 14px;
+}
+.buttonCon_cart {
+	background-color: #fff;
+	color: #000000;
+	border: 1px solid #c4c4c4;
+	margin-right: 5px;
+	height: 50px;
+}
+.buttonCon_purchase {
+	background-color: #000000;
+	border: 1px solid #000000;
+	color: #fff;
+}
+.buttonCon_purchase:hover {
+	background-color: #ff4800;
+	border: 1px solid #ff4800;
+}
+
+.popup {
+	position: fixed;
+	width: 30%;
+	height: 20%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+	z-index: 999;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.popup-xbutton {
+	position: absolute;
+	right: 20px;
+	top: 10px;
+}
+.popup-button {
+	width: 150px;
+	height: 30px;
+	border: 1px solid #c4c4c4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 3px;
+	margin-top: 20px;
+}
